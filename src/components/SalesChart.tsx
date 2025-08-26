@@ -1,6 +1,6 @@
 "use client"
 import { Button } from "@/components/ui/Button";
-import { FileDown } from "lucide-react";
+import { Download, FileDown } from "lucide-react";
 import { LineChart, Line, XAxis, YAxis, ResponsiveContainer } from "recharts";
 import { Card } from "./ui/Card";
 
@@ -25,7 +25,7 @@ export function SalesChart() {
             <div className="flex items-center justify-between mb-6">
                 <h3 className="text-xl font-semibold">Sales Report</h3>
                 <Button variant="default" size="sm" className="gap-2">
-                    <FileDown className="w-4 h-4" />
+                    <Download className="w-4 h-4" />
                     Export to PDF
                 </Button>
             </div>
